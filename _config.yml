@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+page_title: "Lynn Samson"
 title: "Hello. I'm Lynn Samson."
 email: 'lnsamsn@gmail.com'
 description: "I'm a recent M.S. Computer Science graduate seeking a position in software engineering, machine learning, and/or data science."
