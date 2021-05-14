@@ -8,6 +8,8 @@
 
         <div class="hero-content">
 
+          <img src="img/prof.jpeg" style="border-radius: 50%; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+
           {% if site.title != '' %}
           <h1 class="text-center">{{site.title}}</h1>
           {% endif %}
@@ -31,11 +33,15 @@
               <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
             {% endif %}
             {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-sm"></i>Github</button></a>
             {% endif %}
             {% if site.medium_username != '' %}
               <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
             {% endif %}
+            {% if site.linkedin_username != '' %}
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}/"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-sm"></i>LinkedIn</button></a>
+            {% endif %}
+            <a href="../Lynn_Samson_Resume.pdf"><button class="btn btn-default btn-lg"><i class="fa fa-file fa-xs"></i>Resume</button></a>
 
           </div>
 
@@ -43,9 +49,9 @@
 
       </div>
 
-      <a class="section-jump text-center" href="#portfolio">
+      <!-- <a class="section-jump text-center" href="#portfolio">
         <i class="fa fa-angle-down fa-3x"></i>
-      </a>
+      </a> -->
 
     </div>
 
